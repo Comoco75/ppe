@@ -14,7 +14,8 @@ if (session_status() == PHP_SESSION_NONE) {
 </head>
 <body>
 
-<?php include('header.php'); ?>
+<?php 
+include('./vue/header.php'); ?>
 
 <div class="container my-5">
     <h1 class="text-center fw-bold text-primary animate__animated animate__fadeInDown">
