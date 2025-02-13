@@ -33,7 +33,7 @@ if (session_status() == PHP_SESSION_NONE) {
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link d-flex align-items-center gap-2" href="../ppe/Contact/Contact.php">
+            <a class="nav-link d-flex align-items-center gap-2" href="./index.php?page=contact">
                 <i class="bi bi-envelope"></i> Contact
             </a>
         </li>
