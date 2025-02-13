@@ -40,7 +40,7 @@ if (session_status() == PHP_SESSION_NONE) {
                         <label for="message" class="form-label"><i class="bi bi-pencil"></i> Message</label>
                         <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">
+                    <button type="submit" class="btn btn-primary w-100" name="envoyer">
                         <i class="bi bi-send"></i> Envoyer
                     </button>
                 </form>

@@ -18,6 +18,9 @@ switch ($page) {
     case 'accueil':
         include('./Vue/Accueil.php');
         break;
+    case 'contact':
+        include ('./vue/Contact/contact.php');
+        break;        
     case 'header':
         include('./Vue/header.php');
         break;
